@@ -1,0 +1,21 @@
+@import "./../scss/_variables.scss";
+
+.videogrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+
+.stream {
+    position: relative;
+    display: block;
+    border: 1px dashed #000;
+    background: $bg-color;
+    padding: 0.25rem;
+    box-shadow: 1px 1px 0px #000;
+}
+
+.stream video {
+    width: 100%;
+    margin: 0;
+}

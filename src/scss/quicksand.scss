@@ -1,0 +1,32 @@
+$fontstyle : "./quicksand/Quicksand";
+$fontfamily : "quicksand";
+
+@font-face {
+    font-family: $fontfamily;
+    src: url('#{$fontstyle}-Light.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: $fontfamily;
+    src: url('#{$fontstyle}-Regular.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: $fontfamily;
+    src: url('#{$fontstyle}-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: $fontfamily;
+    src: url('#{$fontstyle}-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+

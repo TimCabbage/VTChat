@@ -1,0 +1,142 @@
+@import "./scss/reset.scss";
+@import "./scss/fontAwesome.scss";
+@import "./scss/_variables.scss";
+@import "./scss/quicksand.scss";
+
+html,
+body {
+    font-family: quicksand, sans-serif;
+    font-weight: 100;
+
+    line-height: 1.5rem;
+    font-size: 16px;
+    background-color: $bg-color;
+    color: $text-color;
+}
+
+.brand {
+    color: $brand-color;
+}
+
+.red {
+    color: $red-color;
+}
+
+.yellow {
+    color: $yellow-color;
+}
+
+.green {
+    color: $green-color;
+}
+
+.gray {
+    color: $gray-color;
+}
+
+.large {
+    font-size: 200%;
+}
+
+.small {
+    font-size: 75%;
+    line-height: 75%;
+}
+
+.block {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+input {
+    font-family: quicksand, sans-serif;
+    font-weight: 100;
+
+    font-size: 120%;
+    line-height: 140%;
+    background: $bg-color;
+    color: $text-color;
+    border: 2px solid $brand-color;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem 0;
+}
+
+select {
+    font-family: quicksand, sans-serif;
+    font-weight: 100;
+
+    font-size: 120%;
+    line-height: 140%;
+    background: $bg-color;
+    color: $text-color;
+    border: 2px solid $brand-color;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem 0;
+}
+
+button {
+    font-family: quicksand, sans-serif;
+    font-weight: 300;
+
+    font-size: 120%;
+    line-height: 140%;
+    background: $bg-color;
+    color: $brand-color;
+    border: 2px outset $brand-color;
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem 0;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+}
+
+.panel {
+    display: block;
+    box-sizing: border-box;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 1px 1px 1px #000;
+    border-radius: 0.5rem;
+    background-color: darken($bg-color, 5%);
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: auto min-content;
+    grid-template-rows: min-content auto;
+
+    grid-template-areas:
+        "userArea userArea"
+        "mainArea chatArea";
+}
+
+
+.main-area {
+    grid-area: mainArea;
+    position: relative;
+    align-self: start;
+}
+
+
+.width-20rem {
+    width: 20rem;
+}

@@ -1,0 +1,48 @@
+@import "./../scss/_variables.scss";
+
+.user-area {
+    grid-area: userArea;
+    position: relative;
+    align-self: start;
+}
+
+.status-button-with-info {
+    position: relative;
+    display: inline-block;
+    padding: 0.25rem;
+    overflow-wrap: break-word;
+}
+
+.status-button-with-info > .status-info {
+    display: none;
+    position: absolute;
+    left: -1rem; 
+    top: 2rem;
+    z-index: 1;
+    font-size: 1rem;
+    box-shadow: 0 0 3px $gray-color;
+    text-transform: none;
+}
+
+.status-button-with-info:hover > .status-info, .status-button-with-info:focus > .status-info, .status-button-with-info:focus-within > .status-info {
+    display: block;
+    width: 20rem;
+}
+
+.fa-tiny-bottomright {
+    position: absolute;
+    font-size: 50% !important;
+    line-height: 50% !important;
+
+    bottom: 0;
+    right: 0;
+}
+
+.fa-tiny-bottomleft {
+    position: absolute;
+    font-size: 50% !important;
+    line-height: 50% !important;
+
+    bottom: 0;
+    left: 0;
+}

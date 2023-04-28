@@ -1,0 +1,16 @@
+@import "./fontAwesome/fontawesome.scss";
+
+// our project needs Classic Solid, Brands, and Sharp Solid 
+@import "./fontAwesome/solid.scss";
+@import "./fontAwesome/sharp-solid.scss";
+
+@import "./fontAwesome/regular.scss";
+@import "./fontAwesome/sharp-regular.scss";
+
+@import "./fontAwesome/light.scss";
+@import "./fontAwesome/thin.scss";
+@import "./fontAwesome/brands.scss";
+
+// our project needs Duotone - which requires both of the following files
+@import "./fontAwesome/duotone.scss";
+@import "./fontAwesome/_duotone-icons.scss";

@@ -1,0 +1,14 @@
+@import "./../scss/_variables.scss";
+
+.chat-area {
+    grid-area: chatArea;
+    position: relative;
+    align-self: start;
+    overflow-wrap: break-word;
+}
+
+.chat-indent {
+    padding-left: 0.75rem;
+    text-indent: -0.75rem;
+}
+

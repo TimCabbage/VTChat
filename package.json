@@ -1,0 +1,64 @@
+{
+  "name": "vtchat",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@nx-js/observer-util": "^4.2.2",
+    "@risingstack/react-easy-state": "^6.3.0",
+    "bcrypt": "^5.1.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express.js": "^1.0.0",
+    "helmet": "^6.1.5",
+    "mediasoup": "^3.11.22",
+    "mediasoup-client": "^3.6.84",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "cleanstart": "rm -rf ./node_modules/.cache && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "npx ts-node ./server.ts",
+    "standalone": "npx ts-node ./server.ts --standalone"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/compression": "^1.7.2",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.35",
+    "@types/react-dom": "^18.0.11",
+    "http-proxy-middleware": "^2.0.6",
+    "sass": "^1.62.0",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  }
+}

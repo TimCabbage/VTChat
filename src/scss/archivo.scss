@@ -1,0 +1,44 @@
+$fontstyle : "./archivo/ArchivoExpanded";
+
+@font-face {
+    font-family: 'archivo';
+    src: url('#{$fontstyle}-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivo';
+    src: url('#{$fontstyle}-ThinItalic.woff2') format('woff2');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'archivo';
+    src: url('#{$fontstyle}-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivo';
+    src: url('#{$fontstyle}-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'archivo';
+    src: url('#{$fontstyle}-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivo';
+    src: url('#{$fontstyle}-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+}
+
