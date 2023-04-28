@@ -27,7 +27,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "npx ts-node ./server.ts",
-    "standalone": "npx ts-node ./server.ts --standalone"
+    "standalonets": "npx ts-node ./server.ts --standalone",
+    "buildserver": "npx tsc",
+    "standalonejs": "node ./server.js --standalone"
   },
   "eslintConfig": {
     "extends": [
